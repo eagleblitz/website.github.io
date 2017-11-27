@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CWS Website</title>
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        
+        <style>
+            body {
+                background: rgb(255, 255, 255);
+                font-family: Lato;
+            }
+            .title {
+                color: rgb(56, 56, 56);
+                box-shadow: 0px 8px 11px -7px rgba(0, 0, 0, 0.2);
+                margin: 10px;
+                padding: 15px;
+                padding-left: 30px;
+                border-left: 5px rgb(56, 56, 56) solid;
+                font-size: 30px;
+            }
+            .heading {
+                color: rgb(56, 56, 56);
+                margin-left: 35px;
+                padding: 5px;
+                padding-left: 15px;
+                border-left: 5px rgb(56, 56, 56) solid;
+                font-size: 20px;
+            }
+            .content, li {
+                color: rgb(56 ,56 ,56);
+                font-weight: 300;
+                margin-left: 35px;
+                padding: 5px;
+                padding-left: 30px;
+            }
+            ul {
+                padding-left: 70px;
+            }
+            li {
+                list-style-type: circle;
+                padding-left: 0px;
+            }
+            footer {
+                margin: -10px;
+                background: rgb(245, 245, 245);
+                font-weight: 200;
+                font-size: 15px;
+                padding: 10px;
+                border-top: 5px rgb(56, 56, 56);
+            }
+            a {
+                text-decoration: none;
+                color: rgb(54, 133, 194);
+                border-bottom: 1px black dotted;
+                transition: all 0.2s;
+            }
+            a:visited {
+                color: rgb(20, 186, 81);
+            }
+            /* SPLASH PAGE */
+            .splash-bg {
+                position: absolute;
+                background: url("http://hdbackgroundspic.com/wp-content/uploads/2017/10/awesome-natural-weather-image.jpg") fixed no-repeat;
+                background-size: cover;
+                height: 101%;
+                width: 725px;
+                margin-top: -100px;
+                margin-left: -10px;
+                -webkit-filter: contrast(60%) sepia(30%) blur(2px);
+                z-index: -1;
+            }
+            .splash-icon {
+                color: white;
+                text-align: CENter;
+                font-size: 140px;
+                margin-bottom: 20px;
+            }
+            .splash-btn {
+                display: block;
+                
+                font-family: Lato;
+                background: rgba(255, 255, 255, 0.3);
+                color: rgb(246, 246, 246);
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.3), 0px 5px rgb(246, 246, 246);
+                border: 2px rgb(246, 246, 246) solid;
+                width: 200px;
+                margin-left: auto;
+                margin-right: auto;
+                transition: all 0.1s;
+                
+                font-size: 30px;
+                font-weight: 100;
+                letter-spacing: 10px;
+            }
+            .splash-btn:hover {
+                cursor: pointer;
+            }
+            .splash-btn:active {
+                margin-top: 5px;
+                box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.3);
+            }
+            
+            .nav-ul {
+                margin-left: 11px;
+                margin-top: -15px;
+            }
+            .nav {
+                background-color: rgba(0, 0, 0, 0.0);
+                color: rgb(56, 56, 56);
+                border: none;
+                padding: 10px;
+                box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+                margin-left: -1px;
+                margin-right: -1px;
+                font-size: 15px;
+                font-weight: 100;
+                
+                transition: all 0.3s;
+                letter-spacing: 1px;
+            }
+            .nav:hover {
+                cursor: pointer;
+                color: rgb(35, 219, 103);
+            }
+            .nav1 {
+                border-left: 5px rgb(56, 56, 56) solid;
+            }
+            img {
+                margin-top: -15px;
+                margin-bottom: -40px;
+                margin-left: 35%;
+            }
+            
+            td, th {
+                padding: 5px;
+                border: 1px rgba(0, 0, 0, 0.3) solid;
+                font-size: 14px;
+                width: 50px;
+                height: 50px;
+            }
+            table {
+                margin-bottom: 20px;
+            }
+            .date {
+                font-size: 10px;
+                width: 20px;
+            }
+            .red {
+                color: rgb(227, 25, 25);
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "main">
+            <h1 class = "title"><i class = "fa fa-send"></i> CWS Programming</h1>
+            <div class = "nav-ul">
+                <button class = "nav nav1">about</button>
+                <button class = "nav nav2">members</button>
+                <button class = "nav nav3">projects</button>
+                <button class = "nav nav4">schedule</button>
+                <button class = "nav nav5">join?</button>
+            </div>
+            
+            <div class = "about">
+                <h3 class = "heading">about us</h3>
+                <p class = "content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h3 class = "heading">team mechanic</h3>
+                <p class = "content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                
+                <h3 class = "heading">how projects work</h3>
+                <p class = "content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum:
+                </p>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                </ol>
+            <br>
+            </div>
+            
+            <div class = "members">
+                <h3 class = "heading">members</h3>
+                <p class = "content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum:
+                    <ul>
+                        <li><b>Blitz</b>: Shitposting</li>
+                        <li><b>Blitz</b>: Shitposting</li>
+                        <li><b>Blitz</b>: Shitposting</li>
+                        <li><b>Blitz</b>: Shitposting</li>
+                        <li><b>Blitz</b>: Shitposting</li>
+                        <li><b>Blitz</b>: Shitposting</li>
+                    </ul>
+                    <br>
+            </div>
+            
+            <div class = "project">
+                <h1 class = "heading">projects</h1>
+                <p class = "content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class = "content">
+                    <b><i class = "fa fa-cogs"></i> G A M E P L A Y</b><br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                </p>
+            
+                <img src = "https://cdn.discordapp.com/avatars/355415136388907009/435e519f5e0d137e623aeb2f015b62bc.jpg">
+            
+                <p class = "content">
+                    <br><br>
+                    <b><i class = "fa fa-leaf"></i> G R A P H I C S</b><br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            
+            <div class = "schedule">
+            <div class = "post">
+                <h2 class = "heading">schedule</h2>
+                <p class = "content">Calendar:</p>
+                    <table class = "content">
+                        <thead>
+                            <tr>
+                                <th class = "date">Weeks</th>
+                                <th>MON</th>
+                                <th>TUE</th>
+                                <th>WED</th>
+                                <th>THU</th>
+                                <th>FRI</th>
+                                <th>SAT</th>
+                                <th>SUN</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class = "date">1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class = "date">2</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Blitz shitposts.</td>
+                                <td></td>
+                                <td></td>
+                                <td></tr>
+                            <tr>
+                                <td class = "date">3</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class = "date">4</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Blitz banned</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class = "date">5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+            
+            <div class = "joining">
+                <h3 class = "heading">joining</h3>
+                <p class = "content red">Note: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class = "content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum:</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum?</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum?</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum?</li>
+                </ul>
+                <p class = "content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+                
+            <center><footer>Website by Blitz</footer></center>
+        </div>
+        <div class = "splash">
+            <div class = "splash-bg"></div>
+            <h1 class = "splash-icon"><i class = "fa fa-send"></i></h1>
+            <button class = "splash-btn">ENTER</button>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+            $(".main").hide();
+            
+            $(".splash-btn").click(function (){
+                $(".splash").hide();
+                $(".main").show();
+                
+                $(".joining").hide();
+                $(".members").hide();
+                $(".schedule").hide();
+                $(".project").hide();
+                $(".about").show();
+            });
+            
+            $(".nav1").click(function(){
+                $(".joining").hide();
+                $(".members").hide();
+                $(".schedule").hide();
+                $(".project").hide();
+                $(".about").show();
+            });
+            $(".nav2").click(function(){
+                $(".joining").hide();
+                $(".members").show();
+                $(".schedule").hide();
+                $(".project").hide();
+                $(".about").hide();
+            });
+            $(".nav3").click(function(){
+                $(".joining").hide();
+                $(".members").hide();
+                $(".schedule").hide();
+                $(".project").show();
+                $(".about").hide();
+            });
+            $(".nav4").click(function(){
+                $(".joining").hide();
+                $(".members").hide();
+                $(".schedule").show();
+                $(".project").hide();
+                $(".about").hide();
+            });
+            $(".nav5").click(function(){
+                $(".joining").show();
+                $(".members").hide();
+                $(".schedule").hide();
+                $(".project").hide();
+                $(".about").hide();
+            });
+        </script>
+    </body>
+</html>
